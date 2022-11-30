@@ -13,8 +13,7 @@ class Chronometer {
       } else {
         this.currentTime++;
         printTimeCallback();
-      }     
-      console.log(this.currentTime)
+      }
 
     }, 1000);
     
@@ -26,10 +25,6 @@ class Chronometer {
 
   getSeconds() {
     return this.currentTime % 60;
-  }
-
-  getCentiseconds() {
-    return 0;
   }
 
   computeTwoDigitNumber(value) {
